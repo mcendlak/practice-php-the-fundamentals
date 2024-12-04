@@ -42,11 +42,11 @@ function getAuthor($books, $isbn) {
 }
 
 function getTitle($books, $isbn, $lang) {
-   
+   return '??';
 }
 
 function getTranslator($books, $isbn, $lang) {
-    
+    return '??';
 }
 
 // Testowanie
