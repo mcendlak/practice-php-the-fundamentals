@@ -3,6 +3,21 @@
 $randomArray = createRandomArray();
 print_r($randomArray);
 
+echo "Pętla for start: \n";
+for ($i = 0; $i < count($randomArray); $i++)
+{
+    echo $randomArray[$i] . "\n";
+}
+echo "Pętla for end \n";
+
+echo "foreach start: \n";
+foreach ($randomArray as $el)
+{
+    echo $el . "\n";
+}
+echo "foreach end: \n";
+
+echo "ostatni element: " . $randomArray[count($randomArray) - 1];
 
 
 // nie modyfikuj kodu poniżej!
