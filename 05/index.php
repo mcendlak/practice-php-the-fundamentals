@@ -6,4 +6,4 @@ $menu = [
     ['label' => 'contact', 'url' => 'contact'],
 ];
 
-include 'index.view.php';
+require 'index.view.php';
